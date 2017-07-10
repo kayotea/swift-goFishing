@@ -12,6 +12,12 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    //@IBOutlet var score: UILabel!
+    @IBAction func resetButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    var counter: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,8 +36,13 @@ class GameViewController: UIViewController {
             view.showsFPS = true
             view.showsNodeCount = true
         }
-    }
+        
+        //set initial score
+        //self.score.text = "Score: \(counter)"
+        
 
+    }
+    
     override var shouldAutorotate: Bool {
         return true
     }

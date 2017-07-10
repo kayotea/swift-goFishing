@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C17824A1F12E6D60071E0CD /* fish.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0C1782491F12E6D60071E0CD /* fish.atlas */; };
 		0CEED4391F1053BE001C9069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEED4381F1053BE001C9069 /* AppDelegate.swift */; };
 		0CEED43B1F1053BE001C9069 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CEED43A1F1053BE001C9069 /* GameScene.sks */; };
 		0CEED43D1F1053BE001C9069 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CEED43C1F1053BE001C9069 /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1782491F12E6D60071E0CD /* fish.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = fish.atlas; path = ../../../../../../fish.atlas; sourceTree = "<group>"; };
 		0CEED4351F1053BE001C9069 /* gofishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gofishing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEED4381F1053BE001C9069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEED43A1F1053BE001C9069 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0CEED43E1F1053BE001C9069 /* GameScene.swift */,
 				0CEED4401F1053BE001C9069 /* GameViewController.swift */,
 				0CEED4421F1053BE001C9069 /* Main.storyboard */,
+				0C1782491F12E6D60071E0CD /* fish.atlas */,
 				0CEED4451F1053BE001C9069 /* Assets.xcassets */,
 				0CEED4471F1053BE001C9069 /* LaunchScreen.storyboard */,
 				0CEED44A1F1053BE001C9069 /* Info.plist */,
@@ -249,6 +252,7 @@
 				0CEED4461F1053BE001C9069 /* Assets.xcassets in Resources */,
 				0CEED4491F1053BE001C9069 /* LaunchScreen.storyboard in Resources */,
 				0CEED43D1F1053BE001C9069 /* Actions.sks in Resources */,
+				0C17824A1F12E6D60071E0CD /* fish.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BQB47EHN8G;
 				INFOPLIST_FILE = gofishing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.gofishing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BQB47EHN8G;
 				INFOPLIST_FILE = gofishing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.gofishing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +534,7 @@
 				0CEED4651F1053BE001C9069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CEED4661F1053BE001C9069 /* Build configuration list for PBXNativeTarget "gofishingTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +543,7 @@
 				0CEED4681F1053BE001C9069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CEED4691F1053BE001C9069 /* Build configuration list for PBXNativeTarget "gofishingUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +552,7 @@
 				0CEED46B1F1053BE001C9069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
